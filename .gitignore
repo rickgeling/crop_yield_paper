@@ -1,0 +1,16 @@
+# my own notes, the paper PDFs and the literature
+x_logbook/
+
+# python
+__pycache__/
+
+# data: large, and rebuildable from EpiNOAA-Python via pre_diagnostics/
+*.csv
+*.npy
+
+# results: rebuildable by rerunning the notebooks
+paper_main_results/
+thesis_results/
+
+# everything retired, including the clean-up notes
+archive/
